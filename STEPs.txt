@@ -1,0 +1,13 @@
+1. Create class Square
+    _render <button>
+    _onClick() to call props.onClick() from Board.
+    _label props.value (initial props.value = 'null' and changed to 'X' or 'O' when clicked. Doing this by change state in Board )
+
+2. Create class Board
+    _define state.squares = array with 9 null elements.
+    _make handleClick():
+        +create squares array copy from state.squares
+        +for each square's element click update value to 'X'
+        +set old state to new state
+    _make renderSquare(i) return <Square> with props.value and props.onCLick(call handleClick())
+    _render board with 9 squares
