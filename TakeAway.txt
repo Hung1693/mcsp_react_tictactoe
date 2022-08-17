@@ -1,0 +1,2 @@
+1. The feature functions should be in parent component
+2. Child component should render UI

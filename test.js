@@ -1,4 +1,15 @@
-var player = { score: 1, name: "Jeff" };
+class Vehicle {
+    constructor(brand, color) {
+        this.brand = brand;
+        this.color = color;
+    }
+    print() {
+        console.log("hello")
+    }
+ }
 
-var newPlayer = { ...player, score: 2 }
-console.log(newPlayer)
+
+
+//subclass            //Super class
+let [a, b, c] = [1, 2, 3]
+console.log(a)
